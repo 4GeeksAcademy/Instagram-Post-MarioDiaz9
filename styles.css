@@ -3,6 +3,7 @@
 
 
 body {
+    font-family: "Work Sans", sans-serif;
     margin: 0;
     background-color: rgb(239, 234, 227);
 }
@@ -14,17 +15,14 @@ body {
     margin-bottom: 10px;
 }
 
-.header-title {
-}
-
-
 .post {
     background-color: rgb(255, 251, 245);
     width: 30vw;
     margin: auto;
     border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom:10px;
 }
-
 .post-header {
     display: flex;
     border-bottom: solid rgb(226, 226, 226) 2px;
@@ -33,17 +31,21 @@ body {
     margin-right: auto;
     padding-left: 5px;
 }
+.name {
+    font-weight: bold;
+}
 .post-header-date {
     margin-left: auto;
     padding-right: 5px;
 }
-
+.date {
+    color: rgb(94, 94, 94);
+}
 .post-content img {
     width: 100%;
     display: block;
     height: auto;
 }
-
 .post-text {
     padding: 2% 5% 3% 5%;
     border-top: solid rgb(226, 226, 226) 2px;
